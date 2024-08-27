@@ -1,0 +1,18 @@
+{
+  "name": "finexo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run-tests": "npx playwright test",
+    "show-report": "npx show-report",
+    "open-ui-mode": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0"
+  }
+}
